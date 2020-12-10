@@ -1,0 +1,32 @@
+.filter {
+  background-color: rgba(46, 91, 255, 0.2);
+  margin: 15px;
+  text-align: center;
+  border-radius: 5px;
+  color: blue;
+  font-weight: bold;
+  cursor: pointer;
+}
+.filter.active {
+  color: white;
+  background-color: rgba(46, 91, 255, 1);
+}
+
+.filter p {
+  text-align: left;
+}
+
+.table-holder {
+  max-width: 100%;
+  overflow: auto;
+  border: 1px solid #eee;
+}
+
+.table-holder th{
+  border-bottom-width: 1px !important;
+  border-top-width: 0 !important;
+}
+
+.table-holder th, .table-holder td{
+  white-space: nowrap;
+}

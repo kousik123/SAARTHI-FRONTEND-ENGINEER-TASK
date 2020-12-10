@@ -1,0 +1,9 @@
+@import "react-datepicker/dist/react-datepicker.css";
+
+.react-datepicker-wrapper, .react-datepicker__input-container{
+    display: block;
+}
+
+.cross{
+    cursor: pointer;
+}
